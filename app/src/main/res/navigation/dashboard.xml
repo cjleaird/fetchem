@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dashboard"
+    app:startDestination="@id/dashboardFragment">
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.leaird.fetchem.activities.DashboardFragment"
+        android:label="DashboardFragment"
+        tools:layout="@layout/fragment_dashboard">
+        <argument
+            android:name="show_tool_bar"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <argument
+            android:name="show_bottom_navigation"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <argument
+            android:name="toolbar_title"
+            android:defaultValue="@string/toolbar_title_dashboard"
+            app:argType="reference" />
+        <action
+            android:id="@+id/action_dashboard_to_puppyUploadFragment"
+            app:destination="@id/puppyUploadFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/puppyUploadFragment"
+        android:name="com.leaird.fetchem.activities.PuppyUploadFragment"
+        android:label="PuppyUploadFragment"
+        tools:layout="@layout/fragment_puppy_upload">
+        <argument
+            android:name="show_tool_bar"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <argument
+            android:name="show_bottom_navigation"
+            android:defaultValue="true"
+            app:argType="boolean" />
+        <argument
+            android:name="toolbar_title"
+            android:defaultValue="All"
+            app:argType="string" />
+        <argument
+            android:name="list_id"
+            android:defaultValue="-1"
+            app:argType="integer" />
+    </fragment>
+</navigation>

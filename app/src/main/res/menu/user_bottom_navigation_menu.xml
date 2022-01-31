@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/discover"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_discover_black_24dp"
+        android:title="@string/discover_literal" />
+    <item
+        android:id="@+id/ratings"
+        android:enabled="true"
+        android:icon="@drawable/ic_paw_color_primary_24dp"
+        android:title="@string/ratings_literal" />
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_profile_black_24dp"
+        android:title="@string/me_literal" />
+</menu>

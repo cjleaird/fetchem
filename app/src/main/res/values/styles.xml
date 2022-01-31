@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="FetchEmActionBar" parent="@style/Widget.MaterialComponents.Toolbar">
+        <item name="android:textColorPrimary">@color/shark</item>
+        <item name="android:textColorSecondary">@color/shark</item>
+        <item name="android:textColor">@color/shark</item>
+        <item name="android:actionMenuTextAppearance">@style/FetchEmMenuTextAppearance</item>
+    </style>
+
+    <style name="FetchEmMenuTextAppearance" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+</resources>

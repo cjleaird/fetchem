@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Fetch \'Em</string>
+    <string name="enter_username_literal">Enter username</string>
+    <string name="enter_password_literal">Enter password</string>
+    <string name="login_literal">Login</string>
+    <string name="discover_literal">Discover</string>
+    <string name="me_literal">Me</string>
+    <string name="ratings_literal">Ratings</string>
+    <string name="error_message_failed_to_login">Failed to login</string>
+    <string name="error_message_invalid_credentials">Invalid credentials</string>
+    <string name="toolbar_title_discover">Discover</string>
+    <string name="toolbar_title_dashboard">Dashboard</string>
+    <string name="toolbar_title_ratings">Ratings</string>
+    <string name="toolbar_title_my_account">My Account</string>
+    <string name="toolbar_title_library">Library</string>
+    <string name="toolbar_title_all">All</string>
+    <string name="logout_literal">Logout</string>
+    <string name="error_message_failed_get_puppy_items">Failed to get puppy items</string>
+    <string name="view_all_literal">View all</string>
+    <string name="lists_literal">Lists</string>
+    <string name="puppy_list_id_label">Puppy List %1$d</string>
+</resources>

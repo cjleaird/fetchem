@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.App" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="toolbarStyle">@style/FetchEmActionBar</item>
+        <item name="android:toolbarStyle">@style/FetchEmActionBar</item>
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/avd_paw_color_primary_24dp
+        </item>
+        <item name="android:windowSplashScreenBrandingImage">@drawable/ic_brand_black_180dp</item>
+        <item name="android:windowSplashScreenAnimationDuration">1750</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

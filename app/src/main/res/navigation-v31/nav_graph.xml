@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@+id/loginFragment">
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.leaird.fetchem.activities.LoginFragment"
+        android:label="LoginFragment">
+        <argument
+            android:name="show_tool_bar"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <argument
+            android:name="show_bottom_navigation"
+            android:defaultValue="false"
+            app:argType="boolean" />
+        <action
+            android:id="@+id/action_loginFragment_to_dashboard"
+            app:destination="@id/dashboard"
+            app:popUpTo="@id/nav_graph" />
+        <action
+            android:id="@+id/action_loginFragment_to_discover"
+            app:destination="@id/discover"
+            app:popUpTo="@id/nav_graph" />
+    </fragment>
+
+    <include app:graph="@navigation/library" />
+    <include app:graph="@navigation/ratings" />
+    <include app:graph="@navigation/account" />
+    <include app:graph="@navigation/dashboard" />
+    <include app:graph="@navigation/discover" />
+</navigation>

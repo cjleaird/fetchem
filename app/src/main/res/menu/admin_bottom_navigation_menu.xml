@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_discover_black_24dp"
+        android:title="@string/toolbar_title_dashboard" />
+    <item
+        android:id="@+id/library"
+        android:enabled="true"
+        android:icon="@drawable/ic_paw_color_primary_24dp"
+        android:title="@string/toolbar_title_library" />
+    <item
+        android:id="@+id/account"
+        android:enabled="true"
+        android:icon="@drawable/ic_outline_profile_black_24dp"
+        android:title="@string/me_literal" />
+</menu>

@@ -1,0 +1,243 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="24"
+            android:viewportHeight="24">
+            <group
+                android:name="paw_group"
+                android:pivotX="12"
+                android:pivotY="12"
+                android:scaleX="0.75"
+                android:scaleY="0.75">
+                <group
+                    android:name="paw_pad_group"
+                    android:pivotX="12"
+                    android:pivotY="16"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:name="paw_pad"
+                        android:fillColor="#ffa700"
+                        android:pathData="M 19.33 18.38 C 19.37 19.32 18.65 20.36 17.79 20.75 C 16 21.57 13.88 19.87 11.89 19.87 C 9.9 19.87 7.76 21.64 6 20.75 C 5 20.26 4.31 18.96 4.44 17.88 C 4.62 16.39 6.41 15.59 7.47 14.5 C 8.88 13.09 9.88 10.44 11.89 10.44 C 13.89 10.44 14.95 13.05 16.3 14.5 C 17.41 15.72 19.26 16.75 19.33 18.38 Z" />
+                </group>
+                <group
+                    android:name="paw_one_group"
+                    android:pivotX="4.5"
+                    android:pivotY="10.5"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:name="paw_one"
+                        android:fillColor="#ffa700"
+                        android:pathData="M 3 7.6 C 4.14 7.11 5.69 8 6.5 9.55 C 7.26 11.13 7 12.79 5.87 13.28 C 4.74 13.77 3.2 12.89 2.41 11.32 C 1.62 9.75 1.9 8.08 3 7.6" />
+                </group>
+                <group
+                    android:name="paw_two_group"
+                    android:pivotX="9"
+                    android:pivotY="6"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:name="paw_two"
+                        android:fillColor="#ffa700"
+                        android:pathData="M 8.35 3 C 9.53 2.83 10.78 4.12 11.14 5.9 C 11.5 7.67 10.85 9.25 9.67 9.43 C 8.5 9.61 7.24 8.32 6.87 6.54 C 6.5 4.77 7.17 3.19 8.35 3" />
+                </group>
+                <group
+                    android:name="paw_three_group"
+                    android:pivotX="15"
+                    android:pivotY="6"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:name="paw_three"
+                        android:fillColor="#ffa700"
+                        android:pathData="M 15.5 3 C 16.69 3.19 17.35 4.77 17 6.54 C 16.62 8.32 15.37 9.61 14.19 9.43 C 13 9.25 12.35 7.67 12.72 5.9 C 13.08 4.12 14.33 2.83 15.5 3" />
+                </group>
+                <group
+                    android:name="paw_four_group"
+                    android:pivotX="19.5"
+                    android:pivotY="10.5"
+                    android:scaleX="0"
+                    android:scaleY="0">
+                    <path
+                        android:name="paw_four"
+                        android:fillColor="#ffa700"
+                        android:pathData="M 21 7.6 C 22.1 8.08 22.38 9.75 21.59 11.32 C 20.8 12.89 19.26 13.77 18.13 13.28 C 17 12.79 16.74 11.13 17.5 9.55 C 18.31 8 19.86 7.11 21 7.6" />
+                </group>
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="paw_pad_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleX"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="paw_one_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleX"
+                    android:startOffset="75"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:startOffset="75"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="paw_two_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleX"
+                    android:startOffset="150"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:startOffset="150"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="paw_three_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleX"
+                    android:startOffset="225"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:startOffset="225"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="paw_four_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleX"
+                    android:startOffset="300"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="300"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="scaleY"
+                    android:startOffset="300"
+                    android:valueFrom="0"
+                    android:valueTo="1"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="paw_group">
+        <aapt:attr name="android:animation">
+            <set>
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="rotation"
+                    android:startOffset="600"
+                    android:valueFrom="0"
+                    android:valueTo="-30"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="rotation"
+                    android:startOffset="750"
+                    android:valueFrom="-30"
+                    android:valueTo="30"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:interpolator/fast_out_slow_in"
+                    android:propertyName="rotation"
+                    android:startOffset="900"
+                    android:valueFrom="30"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:propertyName="rotation"
+                    android:startOffset="1050"
+                    android:valueFrom="-10"
+                    android:valueTo="10"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:propertyName="rotation"
+                    android:startOffset="1200"
+                    android:valueFrom="10"
+                    android:valueTo="-4"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:propertyName="rotation"
+                    android:startOffset="1350"
+                    android:valueFrom="-4"
+                    android:valueTo="2"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="150"
+                    android:interpolator="@android:anim/decelerate_interpolator"
+                    android:propertyName="rotation"
+                    android:startOffset="1500"
+                    android:valueFrom="2"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

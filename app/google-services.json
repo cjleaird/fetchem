@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29623177115",
+    "project_id": "fetch-em",
+    "storage_bucket": "fetch-em.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29623177115:android:64bd7bf4a2c832109a5b3e",
+        "android_client_info": {
+          "package_name": "com.leaird.fetchem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29623177115-vgmlv5cfk4fiqh8qvrndht9ad91568bl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeX7-AFRpDGcEneY7tkiGixySlaYQB-zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29623177115-vgmlv5cfk4fiqh8qvrndht9ad91568bl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
